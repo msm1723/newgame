@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 # entry point for the game
 
@@ -8,9 +8,14 @@
 # from <package> import <module or subpackage or object>
 # from <module> import <object>
 
-from NEWGAME import g_player
-from NEWGAME import g_menu
-from NEWGAME import g_rooms
+import sys
+sys.path.insert(0, '/home/user1/gitlocal/newgame/')
+
+#from NEWGAME import g_player
+#from NEWGAME import g_menu
+#from NEWGAME import g_rooms
+
+from NEWGAME import *
 
 def createUser():
 

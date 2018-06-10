@@ -1,4 +1,4 @@
-from . import g_rooms
+from NEWGAME import g_rooms
 from textwrap import dedent
 
 class Menu(object):
